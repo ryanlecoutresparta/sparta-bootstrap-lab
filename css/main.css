@@ -1,12 +1,12 @@
 
 .dropdown-menu, .navbar {
-  background: cyan;
+  background: white;
   margin-bottom: 0px;
   border-bottom: black 2px solid;
 }
 
 .jumbotron {
-  background: teal;
+  background: black;
   margin-bottom: 0px;
   border-bottom: 5px solid grey;
 }
@@ -27,7 +27,7 @@
 
 .footer-section {
   border-top: 5px solid grey;
-  background: orange;
+  background: white;
   width: 100%;
   height: 167px;
 }

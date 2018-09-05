@@ -1,18 +1,37 @@
+body {
+  width: 100%;
+}
 
 .dropdown-menu, .navbar {
-  background: cyan;
+  background: white;
   margin-bottom: 0px;
   border-bottom: black 2px solid;
 }
 
 .jumbotron {
-  background: teal;
+  background-image: url('https://www.flooringdirect.co.uk/images/beauflor-spirit-chessboard-vinyl-flooring-p138-912_medium.jpg');
   margin-bottom: 0px;
   border-bottom: 5px solid grey;
 }
 
-.jumbotron p, .jumbotron h1 {
+.jumbotron h3, .jumbotron h1, .jumbotron p {
   text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.jumbotron h1 {
+  background: black;
+  margin: auto;
+  width: 900px;
+  padding: 5px;
+}
+
+.jumbotron h3 {
+  background: black;
+  margin: auto;
+  width: 500px;
+  padding: 5px;
 }
 
 .nav-options {
@@ -22,22 +41,19 @@
 .main-section {
   background: white;
   width: 100%;
-  height: 300px;
+  margin-bottom: 0;
 }
 
-.footer-section {
+.container-fluid.footer {
   border-top: 5px solid grey;
-  background: orange;
+  background-image: url('https://www.flooringdirect.co.uk/images/beauflor-spirit-chessboard-vinyl-flooring-p138-912_medium.jpg');
   width: 100%;
-  height: 167px;
-}
-
-.col-md-6 {
-  height: 300px;
+  height: 100px;
 }
 
 .list-group {
   color: black;
+  margin-bottom: 0;
 }
 
 .form-inline {
@@ -57,6 +73,8 @@
 
 .table-div, .modal-div {
   background: black;
+  height: 100%;
+  padding-bottom: 150px;
 }
 
 .chess-button {
@@ -64,6 +82,7 @@
   margin-top: 40px;
   background-color: white;
   color: black;
+  width: 100%;
 }
 
 .table-heading, .play-chess, .white-text {
@@ -74,7 +93,58 @@
   background: black;
 }
 
-::placeholder {
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
   color: white;
-  opacity: 1;
+}
+
+.bobby {
+  width: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.table-background {
+  background-color: black;
+}
+
+.footer-section h2 {
+  text-align: center;
+  color: white;
+  background: black;
+  margin: auto;
+  margin-top: 20px;
+  width: 500px;
+  padding: 5px;
+}
+
+@media screen and (max-width:900px) {
+  .jumbotron h1 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .jumbotron h3 {
+    width: 80%;
+  }
 }

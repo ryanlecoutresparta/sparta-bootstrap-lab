@@ -147,4 +147,7 @@ input[type="email"]::placeholder {
   .jumbotron h3 {
     width: 80%;
   }
+  .footer-section h2 {
+    width: 80%;
+  }
 }
